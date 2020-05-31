@@ -8,7 +8,7 @@ metadata:
 spec:
   containers:
   - name: postgres
-    image: postgres:9.4
+    image: postgres
     env:
     - name: POSTGRES_USER
       value: "postgres"
